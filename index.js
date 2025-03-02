@@ -11,8 +11,16 @@ for (let i = 0; i < 100; i++) {
         console.log(i)
     }
     
-    
+    //second solution
+
+for (let i = 1; i<= 100; i++){
+    let log = (i% 3 == 0 ?"Fizz": "" ) + (i % 5 == 0 ? "Buzz": "");
+    console.log(log || i)
 }
+}
+
+//Conditional ternary operators are cleaner looking
+
 //Part 2 Prime Time
 let n = 4; 
 
